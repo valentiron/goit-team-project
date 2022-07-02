@@ -65,3 +65,37 @@ summary {
   padding: 0;
 }
 /* Катя end */
+
+/* hero Oleksandr Omelchuk*/
+.text-block {
+  display: flex;
+}
+.discription {
+  margin-right: 144px;
+}
+.title {
+  font-size: 64px;
+  line-height: 1.25;
+  color: var(--title-color);
+}
+.title-discription {
+  margin-bottom: 40px;
+}
+.title-text-discription {
+  margin-bottom: 60px;
+}
+.title-text {
+  font-size: 24px;
+}
+.btn-hero {
+  font-family: var(--main-font);
+  width: 426px;
+  height: 100px;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  background-color: var(--button-background-color);
+  color: var(--main-background-color);
+  padding: 23px 64px;
+  border-radius: 10px;
+}
