@@ -8,7 +8,7 @@
   --title-text-color: #263238;
   --text-logo-color: #939393;
   --price-color: #546269;
-  --main-font: "Poppins", sans-serif;
+  --main-font: 'Poppins', sans-serif;
   --number-color: #2a3246;
 
   /* BIG FOOTER LINE   */
@@ -73,7 +73,9 @@ summary {
 }
 
 .skills__title {
-  font-family: "Poppins";
+
+  font-family: 'Poppins';
+
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -183,6 +185,19 @@ summary {
   right: 0;
 }
 
+/* Олег Гордов about-section */
+.about-title {
+  margin-bottom: 60px;
+  color: var(--title-color);
+}
+.about-description {
+  color: var(--main-text-color);
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: var(--main-font);
+}
+
+
 /* Катя */
 .list {
   list-style: none;
@@ -264,6 +279,7 @@ summary {
   padding: 23px 64px;
   border-radius: 10px;
 }
+
 
 /* Contacts Падалка Сергей */
 
