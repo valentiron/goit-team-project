@@ -23,17 +23,18 @@
   <body>
     <!-- Header / Катя-->
     <header>
-      <nav>
-        <a class="link" href="">Britlex</a>
-        <ul class="list">
-          <li><a class="link" href="">Home</a></li>
-          <li><a class="link" href="">Skills</a></li>
-          <li><a class="link" href="">About Us</a></li>
-          <li><a class="link" href="">Pricing</a></li>
-          <li><a class="link" href="">Contacts</a></li>
+      <div class="container header-container">
+        <nav class="header-container">
+              <a class="link logo" href="">Brit<span class="clr-logo-header">lex</span></a>
+        <ul class="list header-list">
+          <li class="header-list-item"><a class="link header-link" href="">Home</a></li>
+          <li class="header-list-item"><a class="link header-link" href="">Skills</a></li>
+          <li class="header-list-item"><a class="link header-link" href="">About Us</a></li>
+          <li class="header-list-item"><a class="link header-link" href="">Pricing</a></li>
+          <li class="header-list-item"><a class="link header-link" href="">Contacts</a></li>
         </ul>
-        <button type="button">Let`s Talk</button>
-      </nav>
+        <button class="btn-header" type="button">Let`s Talk</button>
+      </nav></div>
     </header>
     <main>
       <!-- Hero / Олександр Омельчук-->
@@ -49,7 +50,7 @@
             <button class="btn-hero" type="button">Get started</button>
           </div>
           <img
-            src="./images/learning-languages.jpg"
+            src="./images/learning-languages.svg"
             alt="teachers"
             width="654"
             height="510"
@@ -206,13 +207,56 @@
       </section>
 
       <!-- Contacts / Сергій Падалка-->
-      <section></section>
+      <section class="section">
+        <div class="container contacts__container">
+          <img
+            src="./images/contact.png"
+            alt="Boy playing"
+            width="425"
+            height="430"
+            class="contacts__pic"
+          />
+          <div class="contacts__box">
+            <h2 class="contacts__title">Contact Us</h2>
+            <p>
+              Discover your current English level by taking our free online
+              English test. Sign up to our newsletter for learning tips and free
+              resources
+            </p>
+            <form class="subscribe" autocomplete="off">
+              <label>
+                <input
+                  class="subscribe__input"
+                  type="email"
+                  name="email"
+                  placeholder="Enter Your E-mail"
+                  required
+                />
+              </label>
+              <button class="subscribe__btn-submit" type="submit">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--Footer  / Олег Таргонський-->
-    <footer></footer>
+    <footer class="footer">
+<div class="container footer__container">
+  <div class="footer__line">
+
+    <a class="footer__logo link" href="">Brit <span class="grey__logo">lex</span></a>
+    <ul class="footer__list">
+      <li class="footer__item "> <a class="footer__link link" href="">Terms and Conditions</a></li>
+      <li class="footer__item "> <a class="footer__link link" href="">Privacy Policy</a></li>
+      <li class="footer__item "> <a class="footer__link link" href="">Cookie Policy</a></li>
+    </ul>
+  </div>
+  </div>
+</footer>
 
     <!-- Модалка/ Олександр Омельчук -->
-    
   </body>
 </html>
