@@ -265,6 +265,39 @@ summary {
   border-radius: 10px;
 }
 
+/* Contacts Падалка Сергей */
+
+.subscribe__btn-submit {
+  margin-left: 30px;
+  padding: 0;
+  font-weight: 500;
+  background-color: var(--button-background-color);
+  border-radius: 10px;
+}
+
+.contacts__title {
+  
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--title-color);
+  margin-bottom: 30px;
+}
+
+.contacts__box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 145px;
+    gap: 30px;
+}
+
+.contacts__container {
+  display: flex;
+}
+
 /* FOOTER */
 
 .footer__line {
