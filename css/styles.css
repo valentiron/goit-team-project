@@ -196,6 +196,20 @@ summary {
   line-height: 1.8;
   font-family: var(--main-font);
 }
+.about-us {
+  display: flex;
+}
+.about-item {
+  font-weight: 600;
+  color: var(--number-color);
+  font-size: 48px;
+  line-height: 1.5;
+}
+.about-text {
+  color: var(--main-text-color);
+  font-size: 20px;
+  line-height: 1.5;
+}
 
 
 /* Катя */
