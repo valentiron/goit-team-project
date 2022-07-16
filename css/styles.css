@@ -261,3 +261,44 @@ summary {
   padding: 23px 64px;
   border-radius: 10px;
 }
+
+/* FOOTER */
+
+.footer__line {
+  display: flex;
+  align-items: center;
+
+  border-top: 1px solid #c4c4c4;
+}
+
+.footer__logo {
+  font-size: 36px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.grey__logo{
+  color: #939393;
+}
+
+.footer__list {
+  display: flex;
+  margin-left: auto;
+}
+
+.footer__link {
+  font-size: 24px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+padding: 31px 0px;
+  color: #8f95a5;
+}
+
+.footer__item:not(:last-child){
+  margin-right: 80px;
+}
