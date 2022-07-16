@@ -10,6 +10,9 @@
   --price-color: #546269;
   --main-font: "Poppins", sans-serif;
   --number-color: #2a3246;
+
+  /* BIG FOOTER LINE   */
+--BIG-FOOTER-LINE: #c4c4c4;
 }
 
 body {
@@ -268,7 +271,7 @@ summary {
   display: flex;
   align-items: center;
 
-  border-top: 1px solid #c4c4c4;
+  border-top: 1px solid var(--BIG-FOOTER-LINE);
 }
 
 .footer__logo {
@@ -277,11 +280,11 @@ summary {
   display: flex;
   align-items: center;
 
-  color: #000000;
+  color: var(--title-color);
 }
 
 .grey__logo{
-  color: #939393;
+  color: var(--text-logo-color);
 }
 
 .footer__list {
@@ -296,7 +299,7 @@ summary {
   align-items: center;
   letter-spacing: 0.02em;
 padding: 31px 0px;
-  color: #8f95a5;
+  color: var(--main-text-color)
 }
 
 .footer__item:not(:last-child){
