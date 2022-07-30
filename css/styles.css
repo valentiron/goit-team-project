@@ -297,12 +297,16 @@ summary {
 
 /* Contacts Падалка Сергей */
 
-.subscribe__btn-submit {
-  margin-left: 30px;
-  padding: 0;
-  font-weight: 500;
-  background-color: var(--button-background-color);
-  border-radius: 10px;
+.contacts__container {
+  display: flex;
+}
+
+.contacts__box {
+  display: flex;
+  flex-direction: column;
+  width: 767px;
+  margin-left: 145px;
+  gap: 30px;
 }
 
 .contacts__title {
@@ -312,21 +316,61 @@ summary {
   font-weight: 600;
   font-size: 48px;
   line-height: 1.5;
-  text-align: center;
+  /* text-align: center; */
   color: var(--title-color);
   margin-bottom: 30px;
 }
 
-.contacts__box {
-    display: flex;
-    flex-direction: column;
-    margin-left: 145px;
-    gap: 30px;
+.contacts__txt {
+  width: 654px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  
+  color: var(--main-text-color);
 }
 
-.contacts__container {
+.subscribe {
   display: flex;
+  justify-content: space-between;
+  height: 70px;
 }
+
+.subscribe__input {
+  width: 425px;
+  height: 100%;
+  padding: 20px 30px;
+
+  border: 1px solid var(--main-text-color);
+  border-radius: 10px;
+}
+
+.subscribe__input::placeholder {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #8F95A5;
+}
+
+
+.subscribe__btn-submit {
+  min-width: 312px;
+  height: 100%;
+  /* margin-left: 30px; */
+  padding: 0;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: var(--main-background-color);
+  background-color: var(--button-background-color);
+  border-radius: 10px;
+  border: none;
+}
+
+
 
 /* FOOTER */
 
